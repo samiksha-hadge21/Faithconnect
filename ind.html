@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event List</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            Faithconnect</div>
+            <input type="checkbox" name="" id="click">
+            <label for="click" class="menu-btn">
+                <img src="icons8-menu-50.png" width="35px">
+            </label>
+            <ul>
+    
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="ind.html">Events</a></li> 
+                         
+           
+            </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+<center>
+        <h1 style="color: purple;">Upcoming Events</h1>
+    </center>
+    
+       <br>
+       <br>
+        <div class="filters">
+            <label for="filter-occasion" style="font-size: 30px;">Occasion:</label>
+            <select id="filter-occasion">
+                <option value="">All</option>
+                <option value="Music">Music</option>
+                <option value="Charity">Charity</option>
+                <option value="Religious">Religious</option>
+                <option value="Social">Social</option>
+            </select>
+            <button id="apply-filters">Apply Filters</button>
+        </div>
+        
+      
+        <div id="event-list" class="event-list"></div>
+        
+      
+        <center>
+        <form id="event-form">
+           
+            <input type="text" id="event-title" placeholder="Event Title" required>
+            <input type="date" id="event-date" required>
+   
+            <input type="text" id="event-location" placeholder="Event Location" required>
+            <select id="event-occasion" required>
+                <option value="Music">Music</option>
+                <option value="Charity">Charity</option>
+                <option value="Religious">Religious</option>
+                <option value="Social">Social</option>
+            </select>
+            
+            <button type="submit">Add Event</button>
+        </form>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>

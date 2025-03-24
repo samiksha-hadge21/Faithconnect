@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav{
+    height: 80px;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+  
+  }
+  nav ul{
+    display: flex;
+  list-style:none ;
+  }
+  nav ul li a{
+    padding: 0 50px;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    color: rgb(133, 221, 250);
+    transition: 0.2s ease;
+  }
+  #click:checked~ul{
+    left: 0%;
+    transition: all 0.3s ease;
+  }
+  #click{
+    display: none;
+  }
+  .logo{
+    font-size: 35px;
+    color: purple;
+  }
+  .menu-btn{
+    cursor: pointer;
+    display: none;
+  
+  }
+  
+  @media(max-width: 950px){
+    .menu-btn{
+      display: block;
+    }
+  nav ul {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #0290fcef;
+    height: 100vh;
+    width: 100%;
+    display: block;
+   
+  }
+  
+  nav ul li{
+    padding: 40px 0;
+  
+  }
+  }
+  
+  #pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  #pic > div {
+    position: relative;
+    overflow: hidden;
+   max-width: 400px;
+  }
+  
+  #photo1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  #con1{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  #photo1:hover #con1{
+    opacity: 1;
+  }
+  
+  
+  #photo2{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  #con2{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  #photo2:hover #con2{
+    opacity: 1;
+  }
+  
+  
+  
+  #photo4 {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  #con4{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  #photo4:hover #con4{
+    opacity: 1;
+  }
+  
+  
+  .goals{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px purple;
+   background-color:rgba(250, 241, 241, 0.942);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+  }
+  #goals1{
+   
+    border: 1px purple;
+    
+  }
+  #goals1_1{
+    border: 1px purple;
+    border-left: 10px solid purple;
+  }
+  #goals1_2{
+    border: 1px purple;
+    border-left: 10px solid purple;
+  }
+  #goals1_3{
+    border: 1px purple;
+    border-left: 10px solid purple;
+  }
+  #goals1_4{
+    border: 1px purple;
+    border-left: 10px solid purple;
+  }
+  
+  #img2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
